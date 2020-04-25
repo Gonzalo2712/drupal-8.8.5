@@ -1,7 +1,7 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
 sites/example.sites.php
-
+node_modules/node-sass/build
 # Ignore paths that contain generated content.
 files/
 sites/*/files
@@ -34,3 +34,4 @@ xmlrpc.php
 
 
 Drupal-TFG/
+
