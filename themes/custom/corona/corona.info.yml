@@ -5,3 +5,8 @@ core: 8.x
 libraries:
   - corona/global-styling
   - corona/global-scripts
+regions:
+  content: 'Main content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'

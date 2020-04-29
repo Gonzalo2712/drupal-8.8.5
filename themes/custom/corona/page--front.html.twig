@@ -46,7 +46,7 @@
  */
 #}
 <div class="layout-container">
-
+  hello 
   <header role="banner">
     {{ page.header }}
   </header>
@@ -64,21 +64,12 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
-
-        Hello twig
-        
       {{ page.content }}
     </div>{# /.layout-content #}
 
-    {% if page.sidebar_first %}
+    {% if page.sidebar %}
       <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-    {% endif %}
-
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
+        {{ page.sidebar }}
       </aside>
     {% endif %}
 
